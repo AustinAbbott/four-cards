@@ -1,5 +1,14 @@
 /* font-family: 'Poppins', sans-serif; */
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 #main {
   text-align: center;
 }
@@ -15,6 +24,16 @@
 }
 
 #heading-p {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+#card-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.boxes {
+    border: 5px solid black;
 }
