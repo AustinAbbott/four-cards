@@ -12,6 +12,7 @@
 #main {
   text-align: center;
   background-color: white;
+  width: 100%;
 }
 
 #heading-one {
@@ -35,8 +36,9 @@
   grid-template-rows: 1fr;
   grid-gap: 10px 10px;
   padding: 10%;
-  align-content: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 500px;
 }
 
@@ -53,54 +55,55 @@
 #card-one {
   grid-row: 1;
   grid-column: 1;
-  box-shadow: 10px gray;
   border-top: hsl(180, 62%, 55%) solid 5px;
-  box-shadow: 5px 5px 5px 5px #888888;
+  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
-  /* padding: 0.25em; */
+  padding: 0.25em;
+  margin-right: 2em;
   border-radius: 5px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 #card-two {
   grid-row: 1;
   grid-column: 2;
-  box-shadow: 10px gray;
   border-top: hsl(0, 78%, 62%) solid 5px;
-  box-shadow: 5px 5px 5px 5px #888888;
+  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 0.25em;
   border-radius: 5px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 #card-three {
   grid-row: 1;
   grid-column: 2;
-  box-shadow: 10px gray;
   border-top: hsl(34, 97%, 64%) solid 5px;
-  box-shadow: 5px 5px 5px 5px #888888;
+  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 0.25em;
   margin-top: 3em;
   border-radius: 5px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 #card-four {
   grid-row: 1;
   grid-column: 3;
-  box-shadow: 10px gray;
   border-top: hsl(212, 86%, 64%) solid 5px;
-  box-shadow: 5px 5px 5px 5px #888888;
+  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 0.25em;
+  margin-left: 2em;
   border-radius: 5px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 .inner-cards {
   display: flex;
-  height: 90%;
   flex-direction: column;
 }
