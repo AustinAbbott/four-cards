@@ -61,6 +61,7 @@ h6 {
   grid-template-rows: 1fr;
   grid-gap: 10px 10px;
   padding: 0% 10% 0% 10%;
+  margin-bottom: 10em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,8 +74,9 @@ h6 {
 
 .card-img {
   text-align: right;
-  padding: 0.25em;
-  /* position: absolute; */
+  margin: 0.25em 0 0 0;
+  left: 0;
+  bottom: 0;
 }
 
 #card-one {
@@ -88,6 +90,7 @@ h6 {
   border-radius: 5px;
   width: 300px;
   height: 200px;
+  overflow: hidden;
 }
 
 #card-two {
@@ -126,6 +129,7 @@ h6 {
   border-radius: 5px;
   width: 300px;
   height: 200px;
+  overflow: hidden;
 }
 
 .inner-cards {
@@ -134,7 +138,7 @@ h6 {
 }
 
 footer {
-  position: fixed;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
