@@ -9,6 +9,20 @@
   color: hsl(228, 45%, 44%);
 }
 
+p {
+    font-family: 'Poppins', sans-serif; 
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    margin: 0;
+}
+
+h6 {
+    margin: 0;
+    font-size: large;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+}
+
 #main {
   text-align: center;
   background-color: white;
@@ -16,7 +30,7 @@
 }
 
 #heading-box {
-  padding: 4em 0 2em 0;
+  padding: 4em 0 5em 0;
   width: 35%;
   margin: auto;
 }
@@ -25,17 +39,20 @@
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 150%;
+  color: hsl(229, 6%, 66%)
 }
 
 #heading-two {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 150%;
+  color: black;
 }
 
 #heading-p {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+  color: color: hsl(229, 6%, 66%);
 }
 
 #card-area {
@@ -57,17 +74,17 @@
 .card-img {
   text-align: right;
   padding: 0.25em;
-  position: absolute;
+  /* position: absolute; */
 }
 
 #card-one {
   grid-row: 1;
   grid-column: 1;
   border-top: hsl(180, 62%, 55%) solid 5px;
-  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
+  box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 2em;
-  margin-right: 2em;
+  margin-right: 1.5em;
   border-radius: 5px;
   width: 300px;
   height: 200px;
@@ -77,7 +94,7 @@
   grid-row: 1;
   grid-column: 2;
   border-top: hsl(0, 78%, 62%) solid 5px;
-  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
+  box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 2em;
   border-radius: 5px;
@@ -89,10 +106,10 @@
   grid-row: 1;
   grid-column: 2;
   border-top: hsl(34, 97%, 64%) solid 5px;
-  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
+  box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 2em;
-  margin-top: 3em;
+  margin-top: 1.5em;
   border-radius: 5px;
   width: 300px;
   height: 200px;
@@ -102,10 +119,10 @@
   grid-row: 1;
   grid-column: 3;
   border-top: hsl(212, 86%, 64%) solid 5px;
-  box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
+  box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
   padding: 2em;
-  margin-left: 2em;
+  margin-left: 1.5em;
   border-radius: 5px;
   width: 300px;
   height: 200px;
