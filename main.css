@@ -73,10 +73,8 @@ h6 {
 }
 
 .card-img {
-  text-align: right;
-  margin: 0.25em 0 0 0;
-  left: 0;
-  bottom: 0;
+    margin-left: 75%;
+    margin-top: 10%;
 }
 
 #card-one {
@@ -103,6 +101,7 @@ h6 {
   border-radius: 5px;
   width: 300px;
   height: 200px;
+  overflow: hidden;
 }
 
 #card-three {
@@ -116,6 +115,7 @@ h6 {
   border-radius: 5px;
   width: 300px;
   height: 200px;
+  overflow: hidden;
 }
 
 #card-four {
