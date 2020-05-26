@@ -15,14 +15,22 @@
   width: 100%;
 }
 
+#heading-box {
+  padding: 4em 0 2em 0;
+  width: 35%;
+  margin: auto;
+}
+
 #heading-one {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
+  font-size: 150%;
 }
 
 #heading-two {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 150%;
 }
 
 #heading-p {
@@ -31,7 +39,7 @@
 }
 
 #card-area {
-  display: grid;
+  display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 10px 10px;
@@ -49,7 +57,7 @@
 .card-img {
   text-align: right;
   padding: 0.25em;
-  /* position: static; */
+  position: absolute;
 }
 
 #card-one {
@@ -58,7 +66,7 @@
   border-top: hsl(180, 62%, 55%) solid 5px;
   box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
-  padding: 0.25em;
+  padding: 2em;
   margin-right: 2em;
   border-radius: 5px;
   width: 300px;
@@ -71,7 +79,7 @@
   border-top: hsl(0, 78%, 62%) solid 5px;
   box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
-  padding: 0.25em;
+  padding: 2em;
   border-radius: 5px;
   width: 300px;
   height: 200px;
@@ -83,7 +91,7 @@
   border-top: hsl(34, 97%, 64%) solid 5px;
   box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
-  padding: 0.25em;
+  padding: 2em;
   margin-top: 3em;
   border-radius: 5px;
   width: 300px;
@@ -96,7 +104,7 @@
   border-top: hsl(212, 86%, 64%) solid 5px;
   box-shadow: 0px 2px 2px 2px hsl(229, 6%, 66%);
   font-family: "Poppins", sans-serif;
-  padding: 0.25em;
+  padding: 2em;
   margin-left: 2em;
   border-radius: 5px;
   width: 300px;
