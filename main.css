@@ -10,17 +10,17 @@
 }
 
 p {
-    font-family: 'Poppins', sans-serif; 
-    color: hsl(229, 6%, 66%);
-    font-weight: 200;
-    margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  margin: 0;
 }
 
 h6 {
-    margin: 0;
-    font-size: large;
-    font-family: 'Poppins', sans-serif; 
-    font-weight: 400;
+  margin: 0;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 #main {
@@ -39,7 +39,7 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
   font-size: 150%;
-  color: hsl(229, 6%, 66%)
+  color: hsl(229, 6%, 66%);
 }
 
 #heading-two {
@@ -52,11 +52,11 @@ h6 {
 #heading-p {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
-  color: color: hsl(229, 6%, 66%);
+  color: hsl(229, 6%, 66%);
 }
 
-#card-area {
-  display: grid; 
+.card-area {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 10px 10px;
@@ -73,8 +73,8 @@ h6 {
 }
 
 .card-img {
-    margin-left: 75%;
-    margin-top: 10%;
+  margin-left: 75%;
+  margin-top: 10%;
 }
 
 #card-one {
@@ -145,9 +145,62 @@ footer {
   height: auto;
 }
 
-
-@media only screen and (max-width: 1300px) {
-  body {
+@media only screen and (max-width: 1470px) {
+  /* body {
     background-color: blue;
+  } */
+
+  .card-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+
+  #card-one {
+    border-top: hsl(180, 62%, 55%) solid 5px;
+    box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
+    font-family: "Poppins", sans-serif;
+    padding: 2em;
+    margin-right: 1.5em;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  #card-two {
+    border-top: hsl(0, 78%, 62%) solid 5px;
+    box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
+    font-family: "Poppins", sans-serif;
+    padding: 2em;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  #card-three {
+    border-top: hsl(34, 97%, 64%) solid 5px;
+    box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
+    font-family: "Poppins", sans-serif;
+    padding: 2em;
+    margin-top: 1.5em;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  #card-four {
+    border-top: hsl(212, 86%, 64%) solid 5px;
+    box-shadow: 0px 5px 11px -1px hsl(229, 6%, 66%);
+    font-family: "Poppins", sans-serif;
+    padding: 2em;
+    margin-left: 1.5em;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
   }
 }
